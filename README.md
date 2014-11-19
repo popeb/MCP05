@@ -10,11 +10,10 @@ DefineRDBs is designed to identify slope transitions along chromosomal profiles 
                 Length_Max = 1e6, Length_Min = 2e5, RTU_Min = 0.55, Span = 35,
                 Gap = 8e4, Gap_Dis = 125e3 )
 
-The input is a data table with at least three columns as described below:
+#####Input
+x - table with columns "CHR" and "POSITION" indicating genomic coordinates of data points and at least one additional column containing replication timing data for each individual sample
 
-x - table with columns "CHR" and "POSITION" indicating genomic coordinates of data points and additional columns containing replication timing data from individual samples
-
-The following parameters can also be adjusted:
+#####Parameters
 
 Slope_E - slope threshold for early Timing Transition Region (TTR) borders
 
