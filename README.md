@@ -10,7 +10,8 @@ DefineRDBs is designed to identify slope transitions along chromosomal profiles 
                 Length_Min = 2e5, RTU_Min = 0.55, Span = 35, Gap = 8e4, Gap_Dis = 125e3 )
 
 #####Input
-x - table with columns "CHR" and "POSITION" indicating genomic coordinates of data points and at least one additional column containing replication timing data for each individual sample
+x       table with columns "CHR" and "POSITION" indicating genomic coordinates of data points and at least one additional
+        column containing replication timing data for each individual sample
 
 #####Parameters
 
