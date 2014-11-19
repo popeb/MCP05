@@ -7,7 +7,7 @@ Scripts associated with Mouse ENCODE companion paper - Pope et al. Nature 2014 "
 DefineRDBs is designed to identify slope transitions along chromosomal profiles of DNA replication timing data, but can be applied in principle to any bivariate data.
 
     DefineRDBs(x, Slope_E = 2.75e-6, Slope_L = 1e-06, Ends = 1e6, Data_Points = 30, Length_Max = 1e6,
-    Length_Min = 2e5, RTU_Min = 0.55, Span = 35, Gap = 8e4, Gap_Dis = 125e3)
+        Length_Min = 2e5, RTU_Min = 0.55, Span = 35, Gap = 8e4, Gap_Dis = 125e3)
 
 The input is a data table with at least three columns as described below:
 
