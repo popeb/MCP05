@@ -1,6 +1,6 @@
 MCP05
 =====
-Scripts associated with Mouse ENCODE companion paper - Pope et al. Nature 2014 "Topologically-associating domains are stable units of replication-timing regulation"
+Scripts associated with Mouse ENCODE companion paper, Pope et al. Nature 2014 "Topologically-associating domains are stable units of replication-timing regulation" (doi:10.1038/nature13986)
 
 ###Replication domain boundary calling
     DefineRDBs( x, Slope_E = 2.75e-6, Slope_L = 1e-06, Ends = 1e6, Data_Points = 30
