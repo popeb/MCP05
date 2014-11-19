@@ -1,6 +1,5 @@
 MCP05
 =====
-
 Scripts associated with Mouse ENCODE companion paper - Pope et al. Nature 2014 "Topologically-associating domains are stable units of replication-timing regulation"
 
 ###Replication domain boundary calling
@@ -10,28 +9,26 @@ DefineRDBs is designed to identify slope transitions along chromosomal profiles 
                 Length_Min = 2e5, RTU_Min = 0.55, Span = 35, Gap = 8e4, Gap_Dis = 125e3 )
 
 #####Input
-x       table with columns "CHR" and "POSITION" indicating genomic coordinates of data points and at least one additional
-        column containing replication timing data for each individual sample
+x  -  table with columns "CHR" and "POSITION" indicating genomic coordinates of data points and at least one additional column containing replication timing data for each individual sample
 
 #####Parameters
+Slope_E  -  slope threshold for early Timing Transition Region (TTR) borders
 
-Slope_E - slope threshold for early Timing Transition Region (TTR) borders
+Slope_L  -  slope threshold for late TTR borders
 
-Slope_L - slope threshold for late TTR borders
+Ends  -  minimum distance between early TTR borders and chromosome ends
 
-Ends - minimum distance between early TTR borders and chromosome ends
+Data_Points  -  minimum number of data points within TTRs
 
-Data_Points - minimum number of data points within TTRs
+Length_Max  -  maximum TTR size
 
-Length_Max - maximum TTR size
+Length_Min  -  minimum TTR size
 
-Length_Min - minimum TTR size
+RTU_Min  -  minimum RT difference across TTR
 
-RTU_Min - minimum RT difference across TTR
+Span  -  span for loess smoothing
 
-Span - span for loess smoothing
+Gap  -  threshold to define gaps in data point spacing
 
-Gap - threshold to define gaps in data point spacing
-
-Gap_Dis - minimum distance between early TTR borders and gaps in data point spacing
+Gap_Dis  -  minimum distance between early TTR borders and gaps in data point spacing
 
