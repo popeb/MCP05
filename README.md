@@ -25,7 +25,7 @@ Length_Max  -  maximum TTR size
 
 Length_Min  -  minimum TTR size
 
-RTU_Min  -  minimum RT difference across TTR
+RTU_Min  -  minimum replication timing difference across TTR
 
 Span  -  span for loess smoothing
 
