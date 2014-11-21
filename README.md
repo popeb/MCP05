@@ -33,3 +33,5 @@ Gap  -  threshold to define gaps in data point spacing
 
 Gap_Dis  -  minimum distance between early TTR borders and gaps in data point spacing
 
+### The deep autoencode analysis
+See *dae_analysis* folder and follow
