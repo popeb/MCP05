@@ -1,7 +1,6 @@
 Guideline to the deep autoencode analysis
 =============================================
-To run the following analysis you need to have installed the
-[dimer](https://bitbucket.org/gertidenas/dimer) library. 
+To run the following analysis you need to have installed the dimer library (from https://bitbucket.org/gertidenas/dimer). 
 
 The analysis has the following steps:
 
