@@ -35,3 +35,14 @@ Gap_Dis  -  minimum distance between early TTR borders and gaps in data point sp
 
 ### The deep autoencode analysis
 See *dae_analysis* folder and follow
+
+### RT_states.sh
+The pipeline "RT_states.sh" will run chromHMM on ChIP-seq reads from mouse and human samples, learn a species-joint model, and produce whole genome segmentation in each sample. It extends the RT boundaries on both sides by the given bin size and bin number. Then it maps the segments of states onto the bins around the RT boundaries and produces a state matrix for each boundary.
+
+Before running the pipeline, you should make the following preparation:
+1. Install chromHMM (http://compbio.mit.edu/ChromHMM/) and put the directory in your path.
+2. Prepare BED format sequencing tag files for all ChIP-input samples and pulldown samples, and separate input and pulldown into two directories. 
+3. Create cell market tables according to the chromHMM manual.
+4. Your input RT boundary file should have three columns and a header: "chr position strand".
+
+Specify the parameters in the "Input set up" section of the pipeline, and run it by typing "sh RT_states.sh". The final outputs will have the same as "[SampleName]_states_onbinpoints".
