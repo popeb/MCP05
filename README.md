@@ -51,7 +51,7 @@ Specify the parameters in the "Input set up" section of the pipeline, and run it
 An R script to quantile-normalize Repli-chip and Repli-seq data sets.
 
 #####Usage
-qnormRT( RepliSeqBedGraphs , RepliChipFiles, cores="max" )
+    qnormRT( RepliSeqBedGraphs , RepliChipFiles, cores="max" )
 
 #####Arguments
 RepliSeqBedGraphs - a character vector of length 1 or more containing file paths/names of Repli-seq data in bedGraph format.
